@@ -4,7 +4,7 @@ body{
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.3em;
-    margin: 20px;
+    margin: 0px;
 }
 
 .container{
@@ -13,3 +13,33 @@ body{
     overflow: hidden;
 }
 
+#mainheader{
+    background-color: #52DF51;
+    color: #fff;
+    margin: auto;
+    padding: auto;
+}
+
+#navbar{
+    background-color: #333;
+    color: #fff;
+}
+
+#navbar ul{
+    padding: 0px;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: #fff;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    color: red;
+}
