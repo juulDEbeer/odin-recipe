@@ -40,6 +40,52 @@ body{
     text-decoration: none;
 }
 
-#navbar a:hover{
+#navbar a:hover,
+#showcase a:hover{
     color: red;
+}
+
+#showcase{
+    padding: 10px;
+}
+
+#showcase ul{
+    list-style: none;
+}
+
+#showcase li{
+    padding-bottom: 5px;
+}
+
+#showcase a{
+    color: #333;
+    text-decoration: none;
+}
+
+
+#mainbar{
+    float: left;
+    width: 70%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: 1px #333 solid;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: #fff;
+    font-size: 12px;
+}
+
+#mainfooter{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    margin-top: 40px;
+    padding: 10px;
+
 }
